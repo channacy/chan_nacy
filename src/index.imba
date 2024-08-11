@@ -1,3 +1,5 @@
-import {Component} from './component.imba'
+import {Header} from './header.imba'
 
-imba.mount <Component>
+global css
+	body bgc: #131B23
+imba.mount <Header>

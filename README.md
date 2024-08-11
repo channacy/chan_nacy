@@ -15,7 +15,17 @@ Run the project:
 bun dev
 ```
 
-Initially I have implemented the live reload functionality, but then decided to refuse it. There is a pretty good VS Code extension: [Lite Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer). It does everything needed out of the box.
+Alternative to Live Server
+```bash 
+npm install -g http-server
+```
+
+```bash 
+http-server public
+```
+
+
+Initially I have implemented the live reload functionality, but then decided to refuse it. There is a pretty good VS Code extension: [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer). It does everything needed out of the box.
 
 Just let Bimba rebuild the sources on change and Lite Server will reload the page in the browser.
 
