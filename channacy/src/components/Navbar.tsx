@@ -5,17 +5,28 @@ const Navbar = () => {
         <>
         <div class="sidebar">
         <ul>
-            <li><a href="#"><i class="fas fa-home"></i>Channacy</a></li>
-            <li><a href="#"><i class="fas fa-project-diagram"></i>Projects</a></li>
-            <li><a href="#"><i class="fas fa-user"></i>Profile</a></li>
-            <li><a href="#"><i class="fas fa-address-card"></i>About</a></li>
-            <li><a href="#"><i class="fas fa-blog"></i>Blogs</a></li>
-            <li><a href="#"><i class="fas fa-map-pin"></i>Map</a></li>
+            <li>
+                <a class="header" href="#">Channacy</a>
+                <a class="subheading" href="#">About</a>
+            </li>
+            <li>
+                <a class="header" href="#">Projects</a>
+                <a class="subheader" href="#">Web</a>
+                <a class="subheader" href="#">AI/ML</a>
+                <a class="subheader" href="#">Mobile</a>
+                <a class="subheader" href="#">Other</a>
+            </li>
+            <li>
+                <a class="header" href="#">Education</a>
+                <a class="subheader" href="#">Drexel University</a>
+            </li>
+            <li><a href="#">Experience</a></li>
+            <li><a href="#">Blog</a></li>
         </ul> 
         <div class="social_media">
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><img src="assets/github.png"/></a>
+          <a href="#"><img src="assets/gmail.png"/></a>
+          <a href="#"><img src="assets/linkedin.png"/></a>
       </div>
 
         </div>
