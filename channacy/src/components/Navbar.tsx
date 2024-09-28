@@ -6,8 +6,8 @@ const Navbar = () => {
         <div class="sidebar">
         <ul>
             <li>
-                <a class="header" href="#">Channacy</a>
-                <a class="subheading" href="#">About</a>
+                <a class="header" href="#">Channacy Un</a>
+                <a class="subheader" href="#">About</a>
             </li>
             <li>
                 <a class="header" href="#">Projects</a>
@@ -18,15 +18,18 @@ const Navbar = () => {
             </li>
             <li>
                 <a class="header" href="#">Education</a>
-                <a class="subheader" href="#">Drexel University</a>
+                <a class="subheader" href="#">Courses</a>
             </li>
-            <li><a href="#">Experience</a></li>
-            <li><a href="#">Blog</a></li>
+            <li>
+                <a class="header" href="#">Experience</a>
+                <a class="subheader" href="#">Projects</a>
+            </li>
+            <li><a class="header" href="#">Blog</a></li>
         </ul> 
         <div class="social_media">
-          <a href="#"><img src="assets/github.png"/></a>
-          <a href="#"><img src="assets/gmail.png"/></a>
-          <a href="#"><img src="assets/linkedin.png"/></a>
+          <a href="https://github.com/channacy" target="_blank"><img src="assets/github.png"/></a>
+          <a href="mailto:channacyun@gmail.com" target="_blank"><img src="assets/gmail.png"/></a>
+          <a href="https://www.linkedin.com/in/channacy-un/" target="_blank"><img src="assets/linkedin.png"/></a>
       </div>
 
         </div>
