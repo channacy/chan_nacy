@@ -6,7 +6,7 @@ const Navbar = () => {
         <div class="sidebar">
         <ul>
             <li>
-                <a class="header" href="#">Channacy Un</a>
+                <a class="header" href="/">Channacy Un</a>
                 <a class="subheader" href="#">About</a>
             </li>
             <li>
@@ -24,7 +24,16 @@ const Navbar = () => {
                 <a class="header" href="#">Experience</a>
                 <a class="subheader" href="#">Projects</a>
             </li>
-            <li><a class="header" href="#">Blog</a></li>
+            <li>
+                <a class="header" href="#">Blog</a>
+                <a class="subheader" href="#">Sept 2024</a>
+            </li>
+            <li>
+                <a class="header" href="#">Contact</a>
+                <a class="subheader" href="#">GitHub</a>
+                <a class="subheader" href="#">Gmail</a>
+                <a class="subheader" href="#">Linkedin</a>
+            </li>
         </ul> 
         <div class="social_media">
           <a href="https://github.com/channacy" target="_blank"><img src="assets/github.png"/></a>
