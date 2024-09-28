@@ -1,4 +1,9 @@
-.sidebar{
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Raleway";
+}
+.navbar{
     position: fixed; 
     left: 0;       
     top: 0;        
@@ -8,16 +13,16 @@
     padding: 20px;
 }
 
-.sidebar ul {
+.navbar ul {
   list-style-type: none;
 }
 
-.sidebar ul li{
+.navbar ul li{
     padding: 15px;
     border-top: 1px solid rgba(255,255,255,0.05);
 }    
   
-.sidebar ul li a{
+.navbar ul li a{
   display: block;
   text-align: left;
   font-size: 24px;
@@ -28,11 +33,6 @@
   flex-direction: row;
   gap: 10px;
   padding: 45px;
-}
-
-.social_media img {
-    height: 35px;
-
 }
 
 .subheader {
@@ -46,11 +46,11 @@
 }
 
 .header {
-  color: #1a659e;
+  color: #f4acb7;
   white-space: nowrap;
   font-weight: bold;
 }
 
 .header:hover{
-  color: #004e89;
+  color: #e799a5;
 }
