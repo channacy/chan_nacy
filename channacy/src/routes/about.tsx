@@ -1,10 +1,8 @@
 export default function About() {
     return (
         <div class="flex-1 grow w-2/3">
-            <h1 class="max-4-xs text-4xl my-8 font-medium">🤓 About</h1>
-            <p class="text-lg my-4">As you may find out, I am somewhat nerdy...</p>
+            <h1 class="max-4-xs text-4xl my-8 font-semibold">🤓 About</h1>
             <div class="flex gap-2">
-                <img class="max-w-180 max-h-60" src="assets/selfie.jpg"/>
                 <img class="max-w-180 max-h-60" src="assets/photography.jpg"/>
             </div>
             <ul class="list-disc mx-5">
