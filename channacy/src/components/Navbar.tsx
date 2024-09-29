@@ -9,12 +9,12 @@ const Navbar = () => {
             <a class="header" href="/">
               Channacy Un
             </a>
-            <a class="subheader" href="#">
+            <a class="subheader" href="/about">
               About
             </a>
           </li>
           <li>
-            <a class="header" href="#">
+            <a class="header" href="/projects">
               Projects
             </a>
             <a class="subheader" href="#">
@@ -31,10 +31,10 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a class="header" href="#">
+            <a class="header" href="/education">
               Education
             </a>
-            <a class="subheader" href="#">
+            <a class="subheader" href="/courses">
               Courses
             </a>
           </li>
@@ -47,6 +47,9 @@ const Navbar = () => {
             </a>
             <a class="subheader" href="#">
               Volunteer
+            </a>
+            <a class="subheader" href="#">
+              Research
             </a>
           </li>
           <li>
@@ -61,30 +64,15 @@ const Navbar = () => {
             <a class="header" href="#">
               Contact
             </a>
-            <a class="subheader" href="#">
+            <a class="subheader" href="https://github.com/channacy" target="_blank">
               GitHub
             </a>
-            <a class="subheader" href="#">
+            <a class="subheader" href="mailto:channacyun@gmail.com">
               Gmail
             </a>
-            <a class="subheader" href="#">
-              Linkedin
+            <a class="subheader" href="https://www.linkedin.com/in/channacy-un" target="_blank">
+              LinkedIn
             </a>
-
-            <div class="social_media">
-              <a href="https://github.com/channacy" target="_blank">
-                <img src="assets/github.png" />
-              </a>
-              <a href="mailto:channacyun@gmail.com" target="_blank">
-                <img src="assets/gmail.png" />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/channacy-un/"
-                target="_blank"
-              >
-                <img src="assets/linkedin.png" />
-              </a>
-            </div>
           </li>
         </ul>
       </div>

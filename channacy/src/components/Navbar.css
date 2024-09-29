@@ -4,13 +4,12 @@
     font-family: "Raleway";
 }
 .navbar{
-    position: fixed; 
     left: 0;       
     top: 0;        
     height: 100%;  
     width: 250px; 
-    overflow-y: auto; 
     padding: 20px;
+    z-index: 1000;
 }
 
 .navbar ul {
@@ -25,7 +24,7 @@
 .navbar ul li a{
   display: block;
   text-align: left;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .social_media {
