@@ -149,11 +149,28 @@ export default function Project() {
 
                 </div>
             </div>
+            <hr/>
+            <br/>
             <div class="flex p-4 gap-4">
                 <img class="max-w-100 max-h-30 rounded-md" src="assets/CLICK.png" />
                 <div>
                     <h1 class="text-lg my-4 font-semibold">Sage.io</h1>
                     <p>CRUD app for tickets</p>
+                    <br />
+                    <div class="flex gap-2">
+                        <div class="bg-blue-100	w-14 p-1 rounded-md">React</div>
+                        <div class="bg-yellow-200 	w-21 p-1 rounded-md">JavaScript</div>
+                        <div class="bg-lime-100	w-20 p-1 rounded-md">MongoDB</div>
+                    </div>
+                </div>
+            </div>
+            <hr/>
+            <br/>
+            <div class="flex p-4 gap-4">
+                <img class="max-w-100 max-h-30 rounded-md" src="assets/CLICK.png" />
+                <div>
+                    <h1 class="text-lg my-4 font-semibold">Pokemon Deck</h1>
+                    <p>View all the pokemons</p>
                     <br />
                     <div class="flex gap-2">
                         <div class="bg-blue-100	w-14 p-1 rounded-md">React</div>
