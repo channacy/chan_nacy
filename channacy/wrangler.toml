@@ -1,8 +1,0 @@
-name = "channacy"
-type = "typescript"
-
-[build]
-command = "npm run build"  # Adjust this if necessary
-
-[build.upload]
-dir = ".output/public/_build"  # Point to your client build output
